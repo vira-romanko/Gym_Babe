@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-242.000000, -1984.000000)">
+            <g id="Footer-Copy" transform="translate(-8.000000, 1925.000000)">
+                <g id="Group-5" transform="translate(108.000000, 55.000000)">
+                    <g id="Group-4" transform="translate(140.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="24.8529412" height="24"></rect>
+                        <g id="icons8-play_button" transform="translate(2.485294, 4.800000)" fill="#FFFFFF" fill-opacity="0.547339379" fill-rule="nonzero">
+                            <path d="M18.9327166,2.475 C18.7526738,1.48535145 17.8948239,0.76464855 16.8992942,0.53964855 C15.4095298,0.225 12.6524064,0 9.66934765,0 C6.68805345,0 3.88680253,0.225 2.3952727,0.53964855 C1.40150841,0.76464855 0.541893078,1.43964855 0.361850238,2.475 C0.18004284,3.6 0,5.175 0,7.2 C0,9.225 0.18004284,10.8 0.405978668,11.925 C0.587786067,12.9146486 1.44563639,13.6353514 2.43940113,13.8603515 C4.02095193,14.175 6.73218188,14.4 9.71524064,14.4 C12.6982999,14.4 15.4095298,14.175 16.9910806,13.8603515 C17.9848449,13.6353514 18.8426952,12.9603515 19.0245031,11.925 C19.2045455,10.8 19.4304813,9.1792971 19.4763747,7.2 C19.3845883,5.175 19.1586525,3.6 18.9327166,2.475 Z M7.22994652,10.35 L7.22994652,4.05 L12.7424278,7.2 L7.22994652,10.35 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
