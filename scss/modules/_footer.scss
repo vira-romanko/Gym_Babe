@@ -16,3 +16,17 @@ footer{
         margin-bottom: 18px;
     }
 }
+
+//Tablet footer
+@include media-breakpoint-up(md) {
+    footer{
+        p{
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        .social-media.footer-media{
+            margin-top: 32px;
+            margin-right: 30px;
+        }
+    }
+}
