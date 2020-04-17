@@ -7,6 +7,9 @@
 .title.about{
     font-size: 20px;
 }
+p{
+    font-size: 14px;
+}
 .sub-about{
     font-style: italic;
     font-size: 14px;
@@ -14,9 +17,9 @@
     margin-top: 40px;
     margin-bottom: 35px;
 }
-// .product-img{
-//    max-width: 274px;
-// }
+.product-img{
+    height: 100%;
+}
 
 .style{
     font-weight: 600;
@@ -28,6 +31,9 @@
 .style-img{
     img{
         margin-bottom: 35px;
+        max-width: 125px;
+        height: 100%;
+        
     }
     
 }

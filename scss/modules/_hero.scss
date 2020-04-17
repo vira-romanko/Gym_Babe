@@ -1,12 +1,12 @@
 .logo{
     margin: 0 auto;
+    max-width: 35%;
     margin-top: 30px;
     margin-bottom: 20px;
     
 }
 .hero-img{
     margin: 0 auto;
-    // max-width:319px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -25,27 +25,32 @@
     margin-top: 25px;
     margin-bottom: 22px;;
 }
-input{
-    background-color: $input-bg-color;
-    color:$input-placeholder-color;
-    text-align: center;
-    padding: 10px;
-    border: 0px;
-    border-radius: 50px;
-    font-size:12px;
+form{
+    input{
+        background-color: $input-bg-color;
+        color:$input-placeholder-color;
+        text-align: center;
+        padding: 10px;
+        height: 40px;
+        border: 0px;
+        border-radius: 50px;
+        font-size:12px;
+    }
+    #submit-button{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        text-transform: uppercase;
+        padding: 10px;
+        background-color: $body-text-color;
+        border-radius: 50px;
+        font-size:12px;
+        color: $body-text-color-2;
+        margin-top: 14px;
+    }
+
 }
-#submit-button{
-    display:flex;
-    justify-content: center;
-    width: 100%;
-    text-transform: uppercase;
-    padding: 10px;
-    background-color: $body-text-color;
-    border-radius: 50px;
-    font-size:12px;
-    color: $body-text-color-2;
-    margin-top: 14px;
-}
+
 .social-media{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -63,5 +68,6 @@ input{
         }
         
     }
+    
 }
 
