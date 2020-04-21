@@ -55,9 +55,14 @@ form{
     margin-top: 100px;
     margin-bottom: 100px;
     a{
+
         margin-left: 30px;
         &:first-child{
+            
             margin-left: 0px;
+        }
+        &:hover{
+            text-decoration: none;
         }
     }
     .scroll{
@@ -68,6 +73,6 @@ form{
         }
         
     }
-    
+
 }
 

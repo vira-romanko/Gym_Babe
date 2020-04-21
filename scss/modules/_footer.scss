@@ -30,3 +30,11 @@ footer{
         }
     }
 }
+
+//Desktop footer
+@include media-breakpoint-up(xl) {
+    footer{
+        padding-right: 85px;
+        padding-left: 85px;
+    }
+}
