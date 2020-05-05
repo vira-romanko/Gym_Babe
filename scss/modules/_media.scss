@@ -1,0 +1,127 @@
+//Tablet breakpoint 768px
+@include media-breakpoint-up(md) {
+    .con{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .hero-img{
+        width: 454px;
+    }
+    .title{
+        font-size: 51px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    form{
+        position: relative;
+        max-width: 335px;
+        //left: calc(50% - 150px);
+        input{
+            position:relative;
+            max-width: 335px;
+            height: 40px;
+            text-align: left;
+            &::placeholder{
+                padding-left: 30px;
+            }
+        }
+        #submit-button{
+            position: absolute;
+            width:103px;
+            height: 40px;
+            margin-top:0px;
+            right: 0;  
+        }
+    }
+    .social-media{
+        max-width: 454px;
+        justify-content: space-around;
+        margin-top: 90px;
+        
+        .scroll{
+            margin: 0px;
+        }
+    }
+    .title.about{
+        font-size: 30px;
+    }
+    .m-left{
+        margin-left: 60px;
+    }
+
+   
+  }
+
+  //Desktop breakpoint 1200px
+  @include media-breakpoint-up(xl) {
+    .con{
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+    .hero-img{
+        width: inherit;
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .logo{
+        margin-top: 50px;
+    }
+
+    .coming-block{
+        margin-top: 190px;
+        form{
+            margin-bottom: 95px;
+        }
+    }
+   
+    .social-media{
+        margin-bottom: 0;
+        a{
+           
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+       .scroll{
+           margin-top: 280px;
+       }
+    }
+
+    #signup{
+        margin-bottom: 120px;
+    }
+
+    .title.about{
+        font-size: 36px;
+    }
+    .m-left{
+     margin-left: 85px;
+    }
+
+    .style{
+        font-size: 16px;
+    }
+    .style-img{
+        margin-right: 85px;
+        img{
+            margin-bottom: 60px;
+            max-width: 246px;
+            max-height: 246px;
+            height: 100%;
+            padding: 0;
+            padding-left: 20px;
+        }
+        
+    }
+    .about-p{
+        .m-left{
+            margin:0;
+        }
+    }
+
+   
+   
+  }

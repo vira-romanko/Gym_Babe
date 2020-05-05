@@ -1,0 +1,53 @@
+body{
+    background-color: $bg-color;
+    color: $body-text-color;
+    margin: 0px;
+    padding:0px;
+}
+html, body {
+    overflow-x: hidden;
+    color: $body-text-color;
+    textarea:hover, 
+    input:hover, 
+    textarea:active, 
+    input:active, 
+    textarea:focus, 
+    input:focus,
+    button:focus,
+    button:active,
+    button:hover,
+    label:focus,
+    .btn:active,
+    .btn.active
+  {
+      outline:0px !important;
+      -webkit-appearance:none;
+      box-shadow: none !important;
+  }
+  }
+.hidden{
+    display:none;
+}
+//responsive font
+html {
+    font-size: 1rem;
+    font-family: $text;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.3rem;
+    }
+  }
